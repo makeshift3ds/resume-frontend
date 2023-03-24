@@ -1,8 +1,10 @@
-/* undefined */
+@import './css/variables';
 
 .App {
-  color: yellow;
-  &__test {
-    color: red;
-  }
+  width: 780px;
+  margin: 2.5rem auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  height: 200px;
+
+  background-color: $app-bg-color;
 }
