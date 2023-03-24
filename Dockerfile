@@ -8,7 +8,7 @@ WORKDIR '/app'
 RUN npm install -g pnpm
 
 # copy package and lock files
-COPY package*.json pnpm-lock.yaml .
+COPY package*.json pnpm-lock.yaml ./
 
 # https://pnpm.io/cli/fetch
 # RUN pnpm fetch --prod
